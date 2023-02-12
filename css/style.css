@@ -70,10 +70,26 @@ a {
 
 .promo {
     box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
-    background: #fff1b8 url(../img/promo-image.png) no-repeat right;
     border-radius: 10px;
     padding: 40px 70px;
     margin-bottom: 56px;
+}
+
+.promo-1 {
+    background: #fff1b8 url(../img/promo-image.png) no-repeat right;
+}
+
+.promo-2 {
+    background: #19d7f0 url(../img/promo-image.png) no-repeat right;
+}
+
+.promo-3 {
+    background: #eec007;
+    border-radius: 40px;
+}
+
+.promo-4 {
+    background: #e7e5de url(../img/promo-image.png) no-repeat right;
 }
 
 .promo-title {
@@ -426,6 +442,57 @@ a {
     padding: 15px 20px;
     font-size: 20px;
     line-height: 23px;
+}
+
+.modal-auth {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.modal-auth-display {
+    display: flex;
+}
+
+.button-auth-footer {
+    margin-left: 600px;
+}
+
+.close-auth {
+    margin-left: 640px;
+    font-size: 36px;
+    border: none;
+    background-color: transparent;
+}
+
+.label-auth {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.label-auth-2 {
+    margin-bottom: 20px;
+}
+
+.user-name {
+    display: none;
+    margin-right: 40px;
+    font-size: 35px;
+}
+
+.button-out {
+    display: none;
+    margin-left: 10px;
+}
+
+.hide {
+    display: none;
 }
 
 @media (max-width: 1360px) {
