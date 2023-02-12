@@ -20,13 +20,19 @@
             </a>
             <input type="text" class="input input-address" placeholder="Адрес доставки">
             <div class="buttons">
-                <button class="button button-primary">
+                <span class="user-name"></span>
+
+                <button class="button button-primary button-auth">
                     <img src="img/user.svg" class="button-icon">
                     <div class="button-text">Войти</div>
                 </button>
                 <button class="button" id="cart-button">
                     <img src="img/shopping.svg" class="button-icon">
                     <div class="button-text">Корзина</div>
+                </button>
+                
+                <button class="button button-primary button-out">
+                    <span class="button-text">Выйти</span>
                 </button>
             </div>
         </header>
@@ -253,6 +259,32 @@
         </div>
     </div>
 
+    <div class="modal-auth">
+        <div class="modal-dialog">
+            <button class="close-auth">&times;</button>
+            <form id="logInForm">
+                <fieldset class="modal-body">
+                    <legend class="modal-title">Авторизация</legend>
+                    <label class="label-auth">
+                        <span>Логин</span>
+                        <input type="text" id="login">
+                    </label>
+                    <br>
+                    <label class="label-auth label-auth-2">
+                        <span>Пароль</span>
+                        <input type="password" id="password">
+                    </label>
+                </fieldset>
+                <div class="modal-footer">
+                    <div class="footer-buttons">
+                        <button class="button button-primary button-auth-footer" type="submit">Войти</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/disabledScroll.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
 </body>
