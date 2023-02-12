@@ -491,13 +491,10 @@ a {
     margin-left: 10px;
 }
 
-<<<<<<< HEAD
 .hide {
     display: none;
 }
 
-=======
->>>>>>> 2ec678d36fe240e2c10a61b8542f260a7c441648
 @media (max-width: 1360px) {
     .container {
         max-width: 960px;
